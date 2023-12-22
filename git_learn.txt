@@ -1,0 +1,5 @@
+##git学习记录
+1、关于多人协作：如果已经有其他人对文件进行修改并提交，其他人想再对其进行修改并提交，需要先把最新提交从网站上抓下来，在本地合并，解决冲突，再推送；
+抓取提交命令:git pull
+注意：在抓取前，要指定本地dev分支与远程origin/dev分支的链接：
+git branch --set-upstream-to=origin/dev dev (git pull 报错后会提示)
